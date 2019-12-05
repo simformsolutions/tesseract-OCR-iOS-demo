@@ -35,6 +35,7 @@ Image noise is a random variation of brightness or color information in images a
 
 It can be used to recognize documents, receipts, and street-signs etc.let's go through all of them with example.
 
+
 ### Documents 
 
 - Let’s consider an example of a picture of a book page.
@@ -113,4 +114,5 @@ Caution
 Site traffic
 ```
 - This is a mistake in output due to a symbol. 
+
 
