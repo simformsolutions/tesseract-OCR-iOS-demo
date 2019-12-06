@@ -30,8 +30,8 @@ Image scaling is performed ultimately to achieve resolution enhancement without 
 
 Image noise is a random variation of brightness or color information in images and is usually an aspect of electronic noise. Removing noise from image improves its quality.
 
-## Use Cases of Tesseract OCR
 
+## Use Cases of Tesseract OCR
 
 It can be used to recognize documents, receipts, and street-signs etc.let's go through all of them with example.
 
@@ -58,7 +58,9 @@ Thy placid lightning o'er the awaken'd sky.
 
 ### Receipts
 
-- A slightly difficult example is a Receipt which has non-uniform text layout and multiple fonts. Book pages and documents have very well defined a structure, Like very little variation in font sizes and equally spaced data which is not the case in bill receipts. Below examples shows how tesseract will perform on scanned receipts.
+- A slightly difficult example is a Receipt which has non-uniform text layout and multiple fonts. 
+A book pages and documents have very well defined structure, Like very less variation in font sizes and equally spaced data which is not the case in bill receipts. Below examples shows how tesseract will perform on scanned receipts.
+
 
 ![receipt](https://user-images.githubusercontent.com/8736329/70234293-5b1e7280-1786-11ea-8b18-27728a210bc0.png)
 
