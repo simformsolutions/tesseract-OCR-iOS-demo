@@ -6,7 +6,6 @@ This prototype is to recognize text inside the image and for that it uses Tesser
 width="350" height="600">     <img src="https://user-images.githubusercontent.com/8736329/70211414-031e4680-175b-11ea-8575-c371f08b0720.gif"
 width="350" height="600"> 
 
-
 ## Getting Started
 
 There are the following points we need to follow to use [tesseract OCR iOS](https://github.com/gali8/Tesseract-OCR-iOS) and get the better the output out of it. 
@@ -24,17 +23,16 @@ For this project we have only included English training files to tessdata folder
 
 ### Scaling Image
 
-Image scaling is performed ultimately to achieve resolution enhancement without loss of image quality. We can implement this using an aspect ratio of an image that has a proportional relationship with image width and height.
+Image scaling is performed ultimately to achieve resolution enhancement without loss of image quality. We can implement this using an aspect ratio of an image that has a proportional relationship with image width and height. For example, if we keep a width-to-height ratio constant then it won't affect the aspect ratio of the image.
 
 ### Removing Noise From Image
 
-Image noise is a random variation of brightness or color information in images and is usually an aspect of electronic noise. Removing noise from image improves its quality.
+Image noise is a random variation of brightness or color information in images and is usually an aspect of electronic noise. Removing noise from image improves its quality. it will apply a filter on image and remove noise using different parameters.
 
 
 ## Use Cases of Tesseract OCR
 
 It can be used to recognize documents, receipts, and street-signs etc.let's go through all of them with example.
-
 
 ### Documents 
 
@@ -58,8 +56,7 @@ Thy placid lightning o'er the awaken'd sky.
 
 ### Receipts
 
-- A slightly difficult example is a Receipt which has non-uniform text layout and multiple fonts. 
-A book pages and documents have very well defined structure, Like very less variation in font sizes and equally spaced data which is not the case in bill receipts. Below examples shows how tesseract will perform on scanned receipts.
+- A slightly difficult example is a Receipt which has non-uniform text layout and multiple fonts. Book pages and documents have very well defined a structure, Like very little variation in font sizes and equally spaced data which is not the case in bill receipts. Below examples shows how tesseract will perform on scanned receipts.
 
 
 ![receipt](https://user-images.githubusercontent.com/8736329/70234293-5b1e7280-1786-11ea-8b18-27728a210bc0.png)
@@ -116,5 +113,4 @@ Caution
 Site traffic
 ```
 - This is a mistake in output due to a symbol. 
-
 
