@@ -27,7 +27,7 @@ Image scaling is performed ultimately to achieve resolution enhancement without 
 
 ### Removing Noise From Image
 
-Image noise is a random variation of brightness or color information in images and is usually an aspect of electronic noise. Removing noise from image improves its quality. it will apply a filter on image and remove noise using different parameters.
+Image noise is a random variation of brightness or color information in images and is usually an aspect of electronic noise. Removing noise from image improves its quality. It will apply a filter on an image and remove noise using different parameters.
 
 
 ## Use Cases of Tesseract OCR
