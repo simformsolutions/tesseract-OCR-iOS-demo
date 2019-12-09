@@ -6,6 +6,7 @@ This prototype is to recognize text inside the image and for that it uses Tesser
 width="350" height="600">     <img src="https://user-images.githubusercontent.com/8736329/70211414-031e4680-175b-11ea-8575-c371f08b0720.gif"
 width="350" height="600"> 
 
+
 ## Getting Started
 
 There are the following points we need to follow to use [tesseract OCR iOS](https://github.com/gali8/Tesseract-OCR-iOS) and get the better the output out of it. 
