@@ -1,13 +1,14 @@
 # Tesseract OCR iOS Prototype
 
+
 This prototype is to recognize text inside the image and for that it uses Tesseract OCR. The underlying Tesseract engine will process the picture and return anything that it believes is text.
 
 <img src="https://user-images.githubusercontent.com/8736329/70211504-4678b500-175b-11ea-9479-8362a0b8cde0.gif"
 width="350" height="600">     <img src="https://user-images.githubusercontent.com/8736329/70211414-031e4680-175b-11ea-8575-c371f08b0720.gif"
 width="350" height="600"> 
 
-
 ## Getting Started
+
 
 There are the following points we need to follow to use [tesseract OCR iOS](https://github.com/gali8/Tesseract-OCR-iOS) and get the better the output out of it. 
 
@@ -30,12 +31,13 @@ Image scaling is performed ultimately to achieve resolution enhancement without 
 
 Image noise is a random variation of brightness or color information in images and is usually an aspect of electronic noise. Removing noise from image improves its quality.
 
-## Use Cases of Tesseract OCR
 
+## Use Cases of Tesseract OCR
 
 It can be used to recognize documents, receipts, and street-signs etc.let's go through all of them with example.
 
 ### Documents 
+
 
 - Let’s consider an example of a picture of a book page.
 
@@ -57,7 +59,9 @@ Thy placid lightning o'er the awaken'd sky.
 
 ### Receipts
 
+
 - A slightly difficult example is a Receipt which has non-uniform text layout and multiple fonts. Book pages and documents have very well defined a structure, Like very little variation in font sizes and equally spaced data which is not the case in bill receipts. Below examples shows how tesseract will perform on scanned receipts.
+
 
 ![receipt](https://user-images.githubusercontent.com/8736329/70234293-5b1e7280-1786-11ea-8b18-27728a210bc0.png)
 
@@ -65,7 +69,9 @@ Thy placid lightning o'er the awaken'd sky.
 output:
 
 Store #05666
+
 3515 DEL MAR HTS, RD
+
 SAN DIEGO, CA 92130
 (858) 792-7040
 
@@ -99,8 +105,10 @@ Entry Method: Chip
 
 ### Street Signs
 
+
 - It can be used to recognize street signs as well, with this example we can see that how tesseract will behave when we pass image with symbols and dark boundaries.
 - Tesseract does not do a very good job with dark boundaries and often assumes it to be text. However, if we help Tesseract a bit by cropping out the text region, it gives perfect output.
+
 
 ![ss1](https://user-images.githubusercontent.com/8736329/70234485-bfd9cd00-1786-11ea-8f7e-1e328fc63733.jpeg)
 
@@ -112,5 +120,5 @@ output:
 Caution
 Site traffic
 ```
-- This is a mistake in output due to a symbol. 
 
+- This is a mistake in output due to a symbol. 
